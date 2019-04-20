@@ -19,7 +19,7 @@ function submitIt() {
 function pressIt() {
   $("#typing").on("keydown", function({keyCode}){
     if (keyCode === 71) {
-      alert("you presssed 'g'!");
+      alert("You presssed 'g'!");
     }
   });
 }
