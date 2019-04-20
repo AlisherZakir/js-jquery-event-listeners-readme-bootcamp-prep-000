@@ -41,7 +41,7 @@ describe('Selectors', () => {
       const event = window.$.Event('keydown', { which: 70 })
       input.trigger(event)
 
-      expect(window.alert).toNotHaveBeenCalled()
+      expect(window.alert).toHaveBeenCalled()
     })
   })
 
