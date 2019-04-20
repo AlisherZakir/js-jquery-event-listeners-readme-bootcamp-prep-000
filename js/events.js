@@ -19,7 +19,7 @@ function submitIt() {
 function pressIt() {
   $('#typing').on('keydown', function(e) {
     // 'g' corresponds to 71
-    if (e.which === 103) {
+    if (e.which === 102) {
       alert("You pressed 'g'!")
     }
   })
